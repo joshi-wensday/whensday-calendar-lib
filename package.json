@@ -1,6 +1,6 @@
 {
   "name": "whensday-calendar-lib",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A flexible calendar library with Whensday/Gregorian calendar systems, event management, and customizable UI components",
   "main": "dist/index.js",
   "module": "dist/index.esm.js",
