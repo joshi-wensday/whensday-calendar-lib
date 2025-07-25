@@ -1,0 +1,64 @@
+{
+  "name": "whensday-calendar-lib",
+  "version": "1.0.0",
+  "description": "A flexible calendar library with Whensday/Gregorian calendar systems, event management, and customizable UI components",
+  "main": "dist/index.js",
+  "module": "dist/index.esm.js",
+  "types": "dist/index.d.ts",
+  "style": "dist/index.css",
+  "files": [
+    "dist",
+    "README.md"
+  ],
+  "scripts": {
+    "build": "rollup -c",
+    "dev": "rollup -c -w",
+    "type-check": "tsc --noEmit",
+    "lint": "eslint src --ext .ts,.tsx",
+    "test": "jest",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "calendar",
+    "whensday",
+    "gregorian",
+    "react",
+    "typescript",
+    "events",
+    "schedules",
+    "ui-components"
+  ],
+  "author": "Whensday Team",
+  "license": "MIT",
+  "peerDependencies": {
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0"
+  },
+  "dependencies": {
+    "lodash-es": "^4.17.21"
+  },
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^25.0.0",
+    "@rollup/plugin-node-resolve": "^15.0.0",
+    "@rollup/plugin-typescript": "^11.0.0",
+    "@types/lodash-es": "^4.17.12",
+    "@types/react": "^18.0.0",
+    "@types/react-dom": "^18.0.0",
+    "eslint": "^8.0.0",
+    "jest": "^29.0.0",
+    "rollup": "^3.0.0",
+    "rollup-plugin-dts": "^5.0.0",
+    "rollup-plugin-peer-deps-external": "^2.2.4",
+    "rollup-plugin-postcss": "^4.0.2",
+    "tslib": "^2.8.1",
+    "typescript": "^5.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/joshi-wensday/whensday-calendar-lib.git"
+  },
+  "bugs": {
+    "url": "https://github.com/joshi-wensday/whensday-calendar-lib/issues"
+  },
+  "homepage": "https://github.com/joshi-wensday/whensday-calendar-lib#readme"
+}

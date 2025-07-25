@@ -1,0 +1,38 @@
+# Source files
+src/
+examples/
+test/
+tests/
+__tests__/
+
+# Build tools
+rollup.config.js
+tsconfig.json
+.eslintrc*
+.prettierrc*
+vite.config.ts
+jest.config.js
+
+# Development files
+.gitignore
+.env*
+node_modules/
+*.log
+.DS_Store
+
+# Documentation (except README.md)
+docs/
+*.md
+!README.md
+
+# CI/CD
+.github/
+.gitlab-ci.yml
+.travis.yml
+.circleci/
+
+# Editor files
+.vscode/
+.idea/
+*.swp
+*.swo 
