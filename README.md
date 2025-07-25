@@ -16,7 +16,7 @@ A flexible React calendar library with support for both Whensday and Gregorian c
 ## Installation
 
 ```bash
-npm install @whensday/calendar-lib
+npm install whensday-calendar-lib
 ```
 
 ## Quick Start
